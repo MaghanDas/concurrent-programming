@@ -1,16 +1,14 @@
 
-public class Employee {
+abstract class Employee {
     private float salary;
     private String name;
 
-    public Employee(float salary, String name){
+    Employee(float salary, String name){
         this.name = name;
         this.salary = salary;
     }
 
-    public float getSalary() {
-        return salary;
-    }
+    public abstract float getSalary();
 
     public String getName() {
         return name;
@@ -25,3 +23,5 @@ public class Employee {
 
     }
 }
+
+

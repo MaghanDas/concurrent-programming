@@ -6,6 +6,6 @@ public class Subordinate extends Employee{
 
     @Override
     public float getSalary() {
-        this.getSalary();
+        return  this.getSalary();
     }
 }
